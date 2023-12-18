@@ -1,0 +1,50 @@
+
+body 
+{
+    background:linear-gradient(90deg, #140E36,#7D5683);
+/* background-size: 300% 300%;
+animation: color 12s ease-in-out infinite;   */
+}
+/* @keyframes color {
+  0%{background-position: 0 50%; }
+  50%{background-position: 100% 50%; }
+  100%{background-position: 0 50%; }
+
+} */
+
+.sort .counter
+{
+  background-color: rgb(212, 68, 212);
+  width:30px;
+  height: 30px;
+  padding: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+.home h1{
+  font-size: 2.5rem;
+  background: linear-gradient(#B131FA,#C2469A);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin:3% 0;
+  line-height: 3.5rem;
+  /* margin: 10% 0 0 5%; */
+}
+.home{
+  margin:0 10%;
+}
+.home p{
+  color:white;
+  margin:5%;
+  margin-bottom: 3%;
+  font-size: 1.3rem;
+}
+.home h2{
+  color:#C2469A;
+  margin: 2% 0;
+}
+.image img{
+   margin-left: 20%;
+}

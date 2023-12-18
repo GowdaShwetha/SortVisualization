@@ -1,0 +1,118 @@
+.array-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.array-bar {
+  /* height: 50px; */
+  width: 70px;
+  margin: 0 6px;
+  color: #140E36;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: plum;
+  display: inline-block;
+  transition:height  0.3s;
+  
+}
+
+.array-bar.highlight {
+  background-color:rgba(223, 12, 227, 0.849) ;
+}
+.array-bar.compare {
+  background-color:#B131FA;
+}
+
+
+
+
+.reset, .sort-btn
+{
+  font-size: 1.5rem;
+  margin:3% 3% 5% 20%;
+  align-items: center;
+    /* margin-left: 35%; */
+    /* margin-top: 3%; */
+    width:15%;
+    height: 10%;
+    padding: 1%;
+    background: linear-gradient(170deg,#B131FA,#C2469A);
+    color: white;
+    border: 0;
+    border-radius: 10%;
+    /* position: absolute; */
+}
+.reset:hover, .sort-btn:hover{
+  background: #B131FA;
+}
+.sort{
+  margin:0 10%;
+}
+
+.sort h1{
+  /* color:#A5678E; */
+  font-size: 2.5rem;
+  background: linear-gradient(#B131FA,#C2469A);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 3% 0;
+}
+.sort ul li
+{
+  color:white;
+  padding: 1%;
+}
+@media (max-width: 575.98px) {
+  
+.sort h1{
+  /* color:#A5678E; */
+  font-size: 1.5rem;
+  background: linear-gradient(#B131FA,#C2469A);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 3% 0;
+}
+  .array-bar {
+    /* height: 50px; */
+    width: 50px;
+    margin: 0 4px;
+    color: #140E36;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: plum;
+    display: inline-block;
+    transition:height  0.3s;
+    
+  }
+
+  .reset, .sort-btn
+{
+  font-size: 1rem;
+  margin:4% 3% 5% 0%;
+  align-items: center;
+    /* margin-left: 35%; */
+    /* margin-top: 3%; */
+    width:40%;
+    height: 15%;
+    padding: 1%;
+    background: linear-gradient(170deg,#B131FA,#C2469A);
+    color: white;
+    border: 0;
+    border-radius: 10%;
+    /* position: absolute; */
+}
+.reset:hover, .sort-btn:hover{
+  background: #B131FA;
+}
+}
