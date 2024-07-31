@@ -4,4 +4,4 @@
  visually demonstrate various sorting algorithms.
  
  Improved Algorithm Understanding: Enhanced comprehension of sorting algorithms by
- providing practical insights, leading to improvement in learning efficiency
+ providing practical insights, leading to improvement in learning efficiency.
